@@ -1,0 +1,32 @@
+ModularDrones
+    One familiar-like drone
+        Flying
+        Model
+        Texture
+        AI
+            Follows player
+            Various modules
+        	    Attack hostile?
+        	    Portable crafting?
+             	Portable smelting?
+            	Dynamic lightsource?
+            		(Is dynamic possible without certain mod?)
+            			Otherwise needs dependency
+            		Torch always BEHIND player?
+            			Or doesnt render torch but registers light?
+        	Inventory?
+        	Sounds
+        		Speech?
+        		Noise?
+    NBT for configurations
+        Block to configure? / Configured on creation?
+            Configurator(BlocK)
+                Container
+                GUI
+                TileEntity
+                Model
+                Texture
+                Power?
+                    Fuels?
+                    Electrical?
+                        Own power system? / Hook into another? (ThermExp most likely)
