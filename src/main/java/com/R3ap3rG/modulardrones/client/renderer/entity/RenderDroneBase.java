@@ -13,7 +13,7 @@ import org.lwjgl.opengl.GL11;
 
 public class RenderDroneBase extends RenderLiving {
 
-    private static final ResourceLocation texture = new ResourceLocation(Reference.MOD_ID + ":" + "models/DroneBase.png");
+    private static final ResourceLocation texture = new ResourceLocation(Reference.MOD_ID + ":" + "models/DroneBaseTexture.png");
 
     public static ModelDroneBase modelEntity;
 
