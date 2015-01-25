@@ -1,1 +1,37 @@
 tile.modulardrones:devBlock.name=DevBlock
+
+item.modulardrones:crystal.name=Crystal
+item.modulardrones:ingotCopper.name=Copper Ingot
+item.modulardrones:ingotTin.name=Tin Ingot
+
+item.modulardrones:dustOsmium.name=Osmium Dust
+item.modulardrones:shardOsmium.name=Osmium Shards
+
+item.modulardrones:itemPlateIron.name=Iron Plate
+item.modulardrones:itemPlateCopper.name=Copper Plate
+item.modulardrones:itemPlateTin.name=Tin Plate
+
+
+
+tile.modulardrones:blockCrystal.name=Crystal Block
+tile.modulardrones:blockCopper.name=Copper Block
+tile.modulardrones:blockTin.name=Tin Block
+
+tile.modulardrones:oreCrystal.name=Crystal Deposit
+tile.modulardrones:oreCopper.name=Copper Ore
+tile.modulardrones:oreTin.name=Tin Ore
+
+tile.modulardrones:oreNetherTin.name=Nether Tin Ore
+tile.modulardrones:oreNetherCopper.name=Nether Copper Ore
+tile.modulardrones:oreNetherCoal.name=Nether Coal Ore
+tile.modulardrones:oreNetherIron.name=Nether Iron Ore
+tile.modulardrones:oreNetherGold.name=Nether Gold Ore
+tile.modulardrones:oreNetherDiamond.name=Nether Diamond Ore
+tile.modulardrones:oreNetherCrystal.name=Nether Crystal Deposit
+tile.modulardrones:oreNetherEmerald.name=Nether Emerald Ore
+tile.modulardrones:oreNetherLapis.name=Nether Lapis Ore
+tile.modulardrones:oreNetherRedstone.name=Nether Redstone Ore
+tile.modulardrones:oreNetherOsmium.name=Nether Osmium Ore
+
+
+entity.DroneBase.name=Drone
