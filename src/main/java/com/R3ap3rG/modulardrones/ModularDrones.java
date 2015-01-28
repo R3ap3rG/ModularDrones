@@ -1,13 +1,9 @@
 package com.R3ap3rG.modulardrones;
 
-import com.R3ap3rG.modulardrones.block.ModBlocks;
 import com.R3ap3rG.modulardrones.client.model.ModelDroneBase;
 import com.R3ap3rG.modulardrones.client.renderer.entity.RenderDroneBase;
 import com.R3ap3rG.modulardrones.entity.EntityDroneBase;
-import com.R3ap3rG.modulardrones.handler.ConfigHandler;
-import com.R3ap3rG.modulardrones.handler.Recipes;
-import com.R3ap3rG.modulardrones.handler.WorldGenMDOres;
-import com.R3ap3rG.modulardrones.item.ModItems;
+import com.R3ap3rG.modulardrones.handler.*;
 import com.R3ap3rG.modulardrones.reference.Reference;
 import com.R3ap3rG.modulardrones.util.LogHelper;
 import cpw.mods.fml.client.registry.RenderingRegistry;
@@ -42,8 +38,8 @@ public class ModularDrones {
         RenderingRegistry.registerEntityRenderingHandler(EntityDroneBase.class, new RenderDroneBase(new ModelDroneBase(),0.3F));
         EntityRegistry.registerGlobalEntityID(EntityDroneBase.class, "DroneBase", EntityRegistry.findGlobalUniqueEntityId(), 0x7AE8FF, 0x47FFE2);
 
-        ModItems.init();
-        ModBlocks.init();
+        ItemMD.init();
+        BlockMD.init();
         Recipes.init();
 
         LogHelper.info("Initialisation Complete!");

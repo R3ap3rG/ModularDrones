@@ -1,6 +1,5 @@
 package com.R3ap3rG.modulardrones.handler;
 
-import com.R3ap3rG.modulardrones.block.ModBlocks;
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
@@ -25,23 +24,23 @@ public class WorldGenMDOres implements IWorldGenerator {
 
     private void generateSurface(World world, Random random, int x, int z){
         //(Block, world, random, chunk X Pos, chunk Z Pos, max x, max z, vein size, chance, low Y, high Y)
-        this.addOreSpawn(ModBlocks.copperOre, world ,random, x, z, 16, 16, 4+random.nextInt(8),37,32,58);
-        this.addOreSpawn(ModBlocks.tinOre, world ,random, x, z, 16, 16, 4+random.nextInt(7),31,21,47);
-        this.addOreSpawn(ModBlocks.crystalOre, world ,random, x, z, 16, 16, 1+random.nextInt(4),25,3,27);
+        this.addOreSpawn(BlockMD.copperOre, world ,random, x, z, 16, 16, 4+random.nextInt(8),37,32,58);
+        this.addOreSpawn(BlockMD.tinOre, world ,random, x, z, 16, 16, 4+random.nextInt(7),31,21,47);
+        this.addOreSpawn(BlockMD.crystalOre, world ,random, x, z, 16, 16, 1+random.nextInt(4),25,3,27);
     }
 
     private void generateNether(World world, Random random, int x, int z) {
-        this.addNetherOreSpawn(ModBlocks.coalNetherOre, world, random, x, z, 16, 16, 6 + random.nextInt(10), 37, 27, 100);
-        this.addNetherOreSpawn(ModBlocks.copperNetherOre, world, random, x, z, 16, 16, 6 + random.nextInt(10), 37, 27, 100);
-        this.addNetherOreSpawn(ModBlocks.tinNetherOre, world, random, x, z, 16, 16, 6 + random.nextInt(10), 37, 27, 100);
-        this.addNetherOreSpawn(ModBlocks.ironNetherOre, world, random, x, z, 16, 16, 4 + random.nextInt(8), 37, 27, 100);
-        this.addNetherOreSpawn(ModBlocks.goldNetherOre, world, random, x, z, 16, 16, 2 + random.nextInt(5), 19, 27, 100);
-        this.addNetherOreSpawn(ModBlocks.diamondNetherOre, world, random, x, z, 16, 16, 1 + random.nextInt(4), 10, 25, 50);
-        this.addNetherOreSpawn(ModBlocks.lapisNetherOre, world, random, x, z, 16, 16, 2 + random.nextInt(6), 29, 15, 100);
-        this.addNetherOreSpawn(ModBlocks.redstoneNetherOre, world, random, x, z, 16, 16, 2 + random.nextInt(7), 29, 15, 100);
-        this.addNetherOreSpawn(ModBlocks.crystalNetherOre, world, random, x, z, 16, 16, 2 + random.nextInt(5), 25, 7, 100);
-        this.addNetherOreSpawn(ModBlocks.emeraldNetherOre, world, random, x, z, 16, 16, 1 + random.nextInt(4), 15, 25, 50);
-        this.addNetherOreSpawn(ModBlocks.osmiumNetherOre, world, random, x, z, 16, 16, 1 + random.nextInt(3), 29, 1, 40);
+        this.addNetherOreSpawn(BlockMD.coalNetherOre, world, random, x, z, 16, 16, 6 + random.nextInt(10), 37, 27, 100);
+        this.addNetherOreSpawn(BlockMD.copperNetherOre, world, random, x, z, 16, 16, 6 + random.nextInt(10), 37, 27, 100);
+        this.addNetherOreSpawn(BlockMD.tinNetherOre, world, random, x, z, 16, 16, 6 + random.nextInt(10), 37, 27, 100);
+        this.addNetherOreSpawn(BlockMD.ironNetherOre, world, random, x, z, 16, 16, 4 + random.nextInt(8), 37, 27, 100);
+        this.addNetherOreSpawn(BlockMD.goldNetherOre, world, random, x, z, 16, 16, 2 + random.nextInt(5), 19, 27, 100);
+        this.addNetherOreSpawn(BlockMD.diamondNetherOre, world, random, x, z, 16, 16, 1 + random.nextInt(4), 10, 25, 50);
+        this.addNetherOreSpawn(BlockMD.lapisNetherOre, world, random, x, z, 16, 16, 2 + random.nextInt(6), 29, 15, 100);
+        this.addNetherOreSpawn(BlockMD.redstoneNetherOre, world, random, x, z, 16, 16, 2 + random.nextInt(7), 29, 15, 100);
+        this.addNetherOreSpawn(BlockMD.crystalNetherOre, world, random, x, z, 16, 16, 2 + random.nextInt(5), 25, 7, 100);
+        this.addNetherOreSpawn(BlockMD.emeraldNetherOre, world, random, x, z, 16, 16, 1 + random.nextInt(4), 15, 25, 50);
+        this.addNetherOreSpawn(BlockMD.osmiumNetherOre, world, random, x, z, 16, 16, 1 + random.nextInt(3), 29, 1, 40);
     }
 
     private void generateEnd(World world, Random random, int x, int z) {
